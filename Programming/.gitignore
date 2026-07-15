@@ -1,2 +1,16 @@
-# Ignore all Java compiled files
-*.classc
+# Compiled Java files
+*.class
+
+# Log files
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
