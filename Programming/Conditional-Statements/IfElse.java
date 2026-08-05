@@ -14,18 +14,39 @@
 // }
 
 
+// import java.util.*;
+
+// public class IfElse {
+
+//     public static void main(String[] args) {
+//        int A = 1;
+//        int B= 5;
+//        if (A>=B) {
+//         System.out.println("A is the largets 2");
+//        }
+//        else{
+//         System.out.println("B is largets of 2");
+//        }
+//     }
+// }
+
+
+// ODD OR EVEN 
 import java.util.*;
 
 public class IfElse {
 
     public static void main(String[] args) {
-       int A = 1;
-       int B= 5;
-       if (A>=B) {
-        System.out.println("A is the largets 2");
-       }
-       else{
-        System.out.println("B is largets of 2");
-       }
+     
+        Scanner sc = new Scanner(System.in);
+        System.err.print("Enter your Number : ");
+        int num = sc.nextInt();
+
+        if (num % 2 ==0) {
+            System.out.println("The Number is Even");
+        }else{
+            System.out.println("The Number is Odd");
+        }
+       
     }
 }
