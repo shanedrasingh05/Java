@@ -54,23 +54,42 @@
 
 // income tax calculator
 
+// import java.util.*;
+// public class IfElse {
+ 
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int income = sc.nextInt();
+//         int tax;
+
+//         if (income<500000) {
+//             tax = 0;
+//         }
+//         else if (income>= 500000 && income <1000000) {
+//             tax=(int)(income*0.2);
+//         }
+//         else{
+//             tax=(int)(income*0.3);
+//         }
+//         System.out.println("Your tax is : " + tax);
+//     }
+// }
+
+// largest of 3
+
 import java.util.*;
 public class IfElse {
- 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int income = sc.nextInt();
-        int tax;
 
-        if (income<500000) {
-            tax = 0;
+    public static void main(String[] args) {
+        int A = 11, B=3, C=6;
+        if ((A>=B) && (A>=C)) {
+            System.out.println("Largest is A");
         }
-        else if (income>= 500000 && income <1000000) {
-            tax=(int)(income*0.2);
+        else if (B>=C) {
+            System.out.println("Largest is B");
         }
         else{
-            tax=(int)(income*0.3);
+            System.out.println("largest is C");
         }
-        System.out.println("Your tax is : " + tax);
     }
 }
